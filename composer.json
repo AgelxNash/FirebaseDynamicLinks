@@ -1,0 +1,24 @@
+{
+    "name": "agelxnash/firebase-dynamic-links",
+    "description": "Firebase Dynamic Links",
+    "keywords": ["laravel", "firebase", "links", "FDL", "goo.gl", "firebasedynamiclinks"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agel Nash",
+            "email": "laravel@agel-nash.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": "~5.0",
+        "illuminate/config": "~5.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AgelxNash\\FirebaseDynamicLinks\\": "src/FirebaseDynamicLinks/"
+        }
+    }
+}
